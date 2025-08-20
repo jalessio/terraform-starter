@@ -13,7 +13,7 @@ resource "spacelift_context" "managed" {
 # context is attached to the stack, this variable will be added to the stack's
 # own environment. And that's how we do configuration reuse here at Spacelift.
 # This environment variable has its write_only bit explicitly set to false, which
-# means that you'll be able to read back its valie from both the GUI and the API.
+# means that you'll be able to read back its value from both the GUI and the API.
 #
 # You can read more about environment variables here:
 #
